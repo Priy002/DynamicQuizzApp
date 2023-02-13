@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+/* @media only screen and (min-width: 300px) and(max-width: 900px){
+    html{
+        font-size: 10px;
+    }
+    .inner-div{
+        width: 90%;
+    }
+    .inner-div h2{
+        font-size: 30px;
+    }
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+
+
+}
+
+html{
+    font-size: 20px;
+}
+
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #E4E9FD;
+}
+
+.inner-div{
+    width: 40vw;
+    background-color: #fff;
+    padding: 30px 80px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px -0.7px rgba(0, 0, 0, 0.4);
+}
+
+
+.inner-div h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 10px 0 30px 0;
+}
+
+
+
+.inner-div li{
+    font-size: 20px;
+    margin: 15px;
+    list-style: none;
+    
+}
+
+input{
+    cursor: pointer;
+}
+
+.button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px;
+    font-weight: 300;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color:#6096B4;
+    cursor: pointer;
+    
+}
+
+#next:hover {
+    box-shadow: 0 10px 10px -0.7px rgba(0,0,0,0.2);
+    
+}
+#prev:hover {
+    box-shadow: 0 10px 10px -0.7px rgba(0,0,0,0.2);
+
+}
+
+#showScore{
+    background-color: #dfe6e9;
+    margin-top: 30px;
+    padding: 30px 40px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px -0.7px rgba(0, 0, 0, 0.4);
+}
+
+.scoreArea{
+    display: none;
+    
+}
+
+#showScore h3{
+    font-size: 30px;
+    text-align: center;
+
+}
+#showScore .btn{
+    margin: 20px 70px 20px 70px;
+    font-size: 20px;
+    padding: 30px 40px;
+    border-radius: 5px;
+    font-weight: 300;
+    outline: none;
+    border: none;
+    background-color: #55efc4;
+    color: #2d3436;
+    cursor: pointer;
+    
+}
+#showScore .btn:hover{
+    background-color: #00b894;
+    color: #fff;
+}
+#submit{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px;
+    font-weight: 300;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color:#0a994a;
+    cursor: pointer;
+    display: none;
+}
+#submit:hover {
+    box-shadow: 0 10px 10px -0.7px rgba(0, 0, 0, 0.2);
+
+}
